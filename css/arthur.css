@@ -1,5 +1,39 @@
+.thumbnail {
+    background: black;
+}
 
 .thumbnail img {
     height: 200px;
 }
 
+.cell {
+    background-color: rgba(216, 225, 237, 0.5); 
+    margin: 3px;
+    padding: 7px;
+
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; /* future proofing */
+    -khtml-border-radius: 7px; /* for old Konqueror browsers */
+}
+
+body {
+    background: transparent;
+}
+
+html {
+    background: url('../img/candles.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron h1 {
+    font-size: 144px;
+    color: white;
+}
